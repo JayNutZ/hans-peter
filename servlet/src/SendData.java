@@ -8,6 +8,9 @@ import java.io.IOException;
 @WebServlet(name = "/SendData", urlPatterns = {"/SendData"})
 public class SendData extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String email = request.getParameter("email");
+
+
         response.sendRedirect("done.jsp");
     }
 
