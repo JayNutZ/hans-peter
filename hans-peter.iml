@@ -5,5 +5,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="com.sun.facelets:jsf-facelets:1.1.14" level="project" />
+    <orderEntry type="library" name="org.glassfish:javax.faces:2.2.1" level="project" />
   </component>
 </module>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.sun.facelets:jsf-facelets:1.1.14" type="repository">
+    <properties maven-id="com.sun.facelets:jsf-facelets:1.1.14" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jsf-facelets-1.1.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
