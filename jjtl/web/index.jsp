@@ -11,6 +11,9 @@
     <title>index</title>
 </head>
 <body>
-    hello world
+    <form action="">
+        e-mail : <input type="email" name="email">
+        <input type="submit" value="senden">
+    </form>
 </body>
 </html>
