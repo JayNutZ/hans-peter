@@ -8,7 +8,7 @@
     <title>JJTL Group - Datenschutz</title>
 
     <link rel="stylesheet" type="text/css" href="src/style.css"
-    <script type="text/javascript" src="src/script.js"></script>>
+    <script type="text/javascript" src="src/script.js"></script>
 </head>
 <body>
     <div class="cover"></div>
