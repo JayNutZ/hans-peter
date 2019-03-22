@@ -1,0 +1,118 @@
+html, body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+    color: white;
+    background: #025196;
+}
+
+.cover {
+    flex-shrink: 1;
+    flex-grow: 1;
+
+    height: 100%;
+    width: calc(100% - 720px);
+
+    background: url(src/img/discover.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main_wrap {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-grow: 1;
+
+    height: 100%;
+    width: 100%;
+    max-width: 720px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 128px);
+    height: calc(25% - 160px);
+    padding: 64px;
+    margin-top: 32px;
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
+}
+
+.title {
+
+    margin-left: 24px;
+
+    font-size: 24px;
+}
+
+main {
+    width: calc(100% - 128px);
+    height: calc(75% - 128px);
+    padding: 64px;
+}
+
+.desc {
+    font-size: 24px;
+    margin-bottom: 25vh;
+}
+
+.strong {
+    font-size: 30px;
+}
+
+input[type=email] {
+    width: calc(100% - 16px);
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: unset;
+    font-size: 14px;
+    color: white;
+    outline: none;
+}
+
+input.wrong {
+    border-bottom: 1px solid red !important;
+}
+
+button {
+    display: flex;
+    margin: 32px 0 0 auto;
+    color: #025196;
+    background: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    transition: background .2s, border .2s;
+}
+
+button:hover {
+    background: #fff9;
+}
+
+button:disabled {
+    background: #777;
+}
+
+button img {
+    height: 24px;
+    width: 24px;
+
+    padding: 6px;
+}
+
+button span {
+    padding: 10px;
+    font-size: 14px;
+}
