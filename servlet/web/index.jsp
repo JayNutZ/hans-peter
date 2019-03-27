@@ -25,7 +25,7 @@
             </div>
 
 
-            <form action="javascript:void(0)">
+            <form action="SendData" method="post">
                 <input type="email" placeholder="E-Mail" id="mail" onkeydown="edit()" />
                 <button onclick="send()" id="submit"><img src="src/img/key.png" id="btn_img"><span id="btn_txt">Anfordern</span></button>
             </form>
