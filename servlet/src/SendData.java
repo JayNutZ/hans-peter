@@ -13,6 +13,9 @@ import java.sql.Connection;
 @WebServlet(name = "/SendData", urlPatterns = {"/SendData"})
 public class SendData extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HandleData handle = new HandleData();
+        handle.respond(request, response);
+        response.sendRedirect("done.jsp");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
