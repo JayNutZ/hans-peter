@@ -1,9 +1,14 @@
 package data;
 
+import java.util.Date;
+
 public class User {
 
-    String email, firstname, lastname, address, zipcode, city;
-    int phone;
+    String email, firstname, lastname, address, zipcode, city, gender;
+    Long phone;
+    Date activeSince, activeLast;
+    Integer salesCount, eventsBooked;
+    Double salesValue;
 
 
 
@@ -55,11 +60,59 @@ public class User {
         this.city = city;
     }
 
-    public int getPhone() {
+    public Long getPhone() {
         return phone;
     }
 
-    public void setPhone(int phone) {
+    public void setPhone(Long phone) {
         this.phone = phone;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public Date getActiveSince() {
+        return activeSince;
+    }
+
+    public void setActiveSince(Date activeSince) {
+        this.activeSince = activeSince;
+    }
+
+    public Date getActiveLast() {
+        return activeLast;
+    }
+
+    public void setActiveLast(Date activeLast) {
+        this.activeLast = activeLast;
+    }
+
+    public Integer getSalesCount() {
+        return salesCount;
+    }
+
+    public void setSalesCount(Integer salesCount) {
+        this.salesCount = salesCount;
+    }
+
+    public Double getSalesValue() {
+        return salesValue;
+    }
+
+    public void setSalesValue(Double salesValue) {
+        this.salesValue = salesValue;
+    }
+
+    public Integer getEventsBooked() {
+        return eventsBooked;
+    }
+
+    public void setEventsBooked(Integer eventsBooked) {
+        this.eventsBooked = eventsBooked;
     }
 }
