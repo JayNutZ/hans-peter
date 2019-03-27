@@ -26,7 +26,7 @@
 
 
             <form action="SendData" method="post">
-                <input type="email" placeholder="E-Mail" id="mail" onkeydown="edit()" />
+                <input type="email" placeholder="E-Mail" id="mail" onkeydown="edit()" name="email" />
                 <button onclick="send()" id="submit"><img src="src/img/key.png" id="btn_img"><span id="btn_txt">Anfordern</span></button>
             </form>
         </main>

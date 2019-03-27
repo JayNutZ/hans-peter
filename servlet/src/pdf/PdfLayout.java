@@ -16,7 +16,7 @@ import java.util.Date;
 public class PdfLayout {
     private PdfInfo info;
     private PDDocument document;
-    private final String path = "/Users/timhuhndorf/Desktop/jjtl/hans-peter/servlet/src/res";
+    private final String path = System.getProperty("user.home") + "/Desktop/jjtl/hans-peter/servlet/src/res";
 
     public PdfLayout(PdfInfo info, PDDocument document) {
         this.info = info;
