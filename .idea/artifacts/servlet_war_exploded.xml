@@ -10,6 +10,12 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="org.glassfish:javax.faces:2.2.1" />
           <element id="library" level="project" name="mysql:mysql-connector-java:8.0.15" />
+          <element id="library" level="project" name="mail" />
+          <element id="library" level="project" name="activation" />
+          <element id="library" level="project" name="chilkat" />
+          <element id="library" level="project" name="pdfbox-2.0.14" />
+          <element id="library" level="project" name="commons-logging-1.2 (2)" />
+          <element id="library" level="project" name="fontbox-2.0.14" />
         </element>
       </element>
     </root>

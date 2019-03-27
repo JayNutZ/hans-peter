@@ -3,6 +3,7 @@ package data;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.sql.Connection;
+import pdf.*;
 
 public class HandleData {
 
@@ -29,5 +30,10 @@ public class HandleData {
                         user.salesCount.toString() + "\n" +
                         user.eventsBooked.toString()
         );
+
+        PdfBuilder pdfBuilder = new PdfBuilder(user);
+        pdfBuilder.build();
+
+        System.out.print(pdfBuilder.getInfo().getFullFilename());
     }
 }
