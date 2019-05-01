@@ -1,3 +1,3 @@
 # HansPeter
-HansPeter is the best way to get your data from windows active directory servers.
+HansPeter is the best way to get your data.
 It's all that's required for european copyright law (GDPR)
